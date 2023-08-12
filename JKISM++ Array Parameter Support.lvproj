@@ -17,7 +17,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="src" Type="Folder">
-			<Item Name="JKISM++ Array Parameter Support.lvlib" Type="Library" URL="../src/JKISM++ Array Parameter Support.lvlib"/>
+			<Item Name="JKISM++ Array Parameter Support.lvlib" Type="Library" URL="../Array-Parameter/JKISM++ Array Parameter Support.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

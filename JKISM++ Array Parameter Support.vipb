@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-08-12 17:59:50" Modified_Date="2023-08-12 18:16:28" Creator="yaoli" Comments="" ID="01f45a77effeb15bc289f80b1284db42">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-08-12 17:59:50" Modified_Date="2023-08-12 22:11:50" Creator="yaoli" Comments="" ID="c794db5eae1420dfc775b21090c6eca2">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_JKISM++_Array_Parameter_Support</Package_File_Name>
-    <Library_Version>0.1.0.6</Library_Version>
+    <Library_Version>0.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -110,7 +110,7 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>src</Path>
+        <Path>Array-Parameter</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -140,14 +140,17 @@
       <Exclusions>
         <Path>JKISM++ Array Parameter Support.lvproj</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
       <Place_Folder_Contents>
         <Path>example</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>src</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath/>
