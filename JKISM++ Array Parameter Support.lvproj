@@ -21,9 +21,30 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="JKI State Machine++.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/JKI State Machine++.lvlib"/>
-				<Item Name="JKISM++ No-Event Structure Template.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/JKISM++ No-Event Structure Template.vi"/>
-				<Item Name="JKISM++ With Event Structure Template.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/JKISM++ With Event Structure Template.vi"/>
+				<Item Name="_Create Resp Queue.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Create Resp Queue.vi"/>
+				<Item Name="_Dequeue JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Dequeue JKISMQ.vi"/>
+				<Item Name="_Enqueue JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Enqueue JKISMQ.vi"/>
+				<Item Name="_Input Name to JKISM Mode.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Input Name to JKISM Mode.vi"/>
+				<Item Name="_JKISMQFGV.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_JKISMQFGV.vi"/>
+				<Item Name="_Lock State JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Lock State JKISMQ.vi"/>
+				<Item Name="_Obtain JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Obtain JKISMQ.vi"/>
+				<Item Name="_Release JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Release JKISMQ.vi"/>
+				<Item Name="_Unlock JKISMQ.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/JKISMQ/_Unlock JKISMQ.vi"/>
+				<Item Name="Add State(s) to Queue By BOOL(Element).vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Polymophic/Add State(s) to Queue By BOOL(Element).vi"/>
+				<Item Name="Add State(s) to Queue By BOOL++.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/Add State(s) to Queue By BOOL++.vi"/>
+				<Item Name="Cache-Broadcast Registry Search Result.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/FGV-BroadcastRegistry/Cache-Broadcast Registry Search Result.vi"/>
+				<Item Name="FGV-BroadcastRegistry.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/FGV-BroadcastRegistry/FGV-BroadcastRegistry.vi"/>
+				<Item Name="FGV-GlobalEventRef.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/GlobalEvent/FGV-GlobalEventRef.vi"/>
+				<Item Name="global-Broadcast Cache Change Flag.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/FGV-BroadcastRegistry/global-Broadcast Cache Change Flag.vi"/>
+				<Item Name="global-JKISMQ FGV Change Flag.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/_Support/FGV-BroadcastRegistry/global-JKISMQ FGV Change Flag.vi"/>
+				<Item Name="JKISM++ Broadcast Status Change.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/AdvanceAPI/JKISM++ Broadcast Status Change.vi"/>
+				<Item Name="JKISM++ Convert Data to HexStr.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/AdvanceAPI/JKISM++ Convert Data to HexStr.vi"/>
+				<Item Name="JKISM++ Convert HexStr to Data.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/AdvanceAPI/JKISM++ Convert HexStr to Data.vi"/>
+				<Item Name="JKISM++ Get New State Notifier Event.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/AdvanceAPI/JKISM++ Get New State Notifier Event.vi"/>
+				<Item Name="JKISM++ Register Status Change.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/AdvanceAPI/JKISM++ Register Status Change.vi"/>
+				<Item Name="Parse State Queue++.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/Parse State Queue++.vi"/>
+				<Item Name="Timeout Selector.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/Utility/Timeout Selector.vi"/>
+				<Item Name="uuid.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/JKI State Machine++/Utility/uuid.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
