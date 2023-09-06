@@ -36,6 +36,13 @@ jobs:
 
       - uses: NEVSTOP-LAB/InstallNevstopPackage@main
         with:
+          LabVIEW_Version: 2014
+          NEVSTOP-FTP-IP: ${{ secrets.VIPM_FTP_IP }}
+          NEVSTOP-FTP-PORT: ${{ secrets.VIPM_FTP_PORT }}
+          PackageName: JKI-State-Machine-Plus-Plus
+
+      - uses: NEVSTOP-LAB/InstallNevstopPackage@main
+        with:
           LabVIEW_Version: 2017
           NEVSTOP-FTP-IP: ${{ secrets.VIPM_FTP_IP }}
           NEVSTOP-FTP-PORT: ${{ secrets.VIPM_FTP_PORT }}
