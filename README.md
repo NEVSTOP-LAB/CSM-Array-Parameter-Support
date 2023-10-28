@@ -1,8 +1,7 @@
 # CSM-Addon-Array-Parameter-Support
 
-![image](https://github.com/NEVSTOP-LAB/CSM-Addon-Array-Parameter-Support/assets/8196752/74fd3096-9aa7-40f4-9e05-00db247f929e)
+Similar to [CSM MassData Arguments Support](https://github.com/NEVSTOP-LAB/CSM-MassData-Parameter-Support), but it supports LabVIEW 2014/2015 with only 'DBL Array'.
 
-## Example:
+ [![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/CSM-Array-Parameter-Support/total)](https://github.com/NEVSTOP-LAB/CSM-Array-Parameter-Support/releases)
 
-![image](https://github.com/NEVSTOP-LAB/CSM-Addon-Array-Parameter-Support/assets/8196752/030de7af-01b1-425a-8e28-f1a0532574af)
 
